@@ -27,6 +27,42 @@ html {
 
 /* End of common style */
 
+/* Navbar*/
+.navbar {
+    width: 100%;
+    height: 14rem;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .2rem .2rem .2rem black;
+}
+
+.navbar-link {
+    color: white;
+    margin: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-link i {
+    font-size: 7rem;
+}
+
+.navbar-link span {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    margin-top: .5rem;
+}
+
+/* End of Navbar*/
+
 /* Section 1*/
 .section-1 {
     width: 100%;
@@ -259,3 +295,80 @@ html {
 }
 
 /* End of Section 3*/
+
+/* Section 4*/
+.section-4 {
+    width: 100%;
+    height: 30vh;
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 3rem 0;
+    position: relative;
+}
+
+.section-4-text {
+    text-transform: uppercase;
+}
+
+.section-4-heading {
+    font-size: 4rem;
+    font-weight: 900;
+    color: yellow;
+}
+
+.section-4-paragraph {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.signup-form {
+    display: flex;
+    align-items: center;
+
+}
+
+.signup-form-input {
+    width: 35rem;
+    height: 5rem;
+    padding: 1rem;
+    border: .2rem solid yellow;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: yellow;
+}
+
+.signup-form-input::placeholder {
+    color: #a79a2d;
+}
+
+.signup-form-btn {
+    position: relative;
+    left: -4.5rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #333;
+    color: yellow;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+.copyright {
+    position: absolute;
+    bottom: 3rem;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    border-top: .1rem solid #888;
+    padding-top: 6rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* End of Section 4*/
